@@ -28,7 +28,7 @@
 - [Usage](#-usage)
 - [Example](#-example)
 - [Project Structure](#-project-structure)
-- [Limitations](#-limitations)
+- [Limitations](#%EF%B8%8F-limitations)
 - [Author](#-author)
 
 ---
