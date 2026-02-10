@@ -21,7 +21,7 @@
 
 - [About](#-about)
 - [Brainfuck 101](#-brainfuck-101)
-- [How the Translator Works](#-how-the-translator-works)
+- [How the Translator Works](#%EF%B8%8F-how-the-translator-works)
 - [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -79,10 +79,10 @@ Brainfuck operates on an array of memory cells (default 30,000 bytes, all initia
 
 ```
   input.bf                    output.c                  executable
- ┌──────────┐   bf2c        ┌──────────┐   gcc        ┌──────────┐
- │ Brainfuck │ ───────────▶ │  C code  │ ───────────▶ │  Binary  │
- │ source    │  translate   │  source  │  compile     │          │
- └──────────┘               └──────────┘              └──────────┘
+ ┌───────────┐   bf2c        ┌──────────┐   gcc        ┌──────────┐
+ │ Brainfuck │ ───────────▶  │  C code  │ ───────────▶ │  Binary  │
+ │ source    │  translate    │  source  │  compile     │          │
+ └───────────┘               └──────────┘              └──────────┘
 ```
 
 The translator works in a single pass:
